@@ -6,7 +6,7 @@
 
     <parent>
         <groupId>com.epam.brest.courses</groupId>
-        <artifactId>department-menegment</artifactId>
+        <artifactId>departmen-menegment</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
