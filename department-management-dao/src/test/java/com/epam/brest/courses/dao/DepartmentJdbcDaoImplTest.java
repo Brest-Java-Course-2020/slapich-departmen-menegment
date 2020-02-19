@@ -18,9 +18,8 @@ public class DepartmentJdbcDaoImplTest {
     @Autowired
     private DepartmentDao departmentDao;
 
-    @Test
+   @Test
     public void getDepartments() {
-
         List<Department> departments = departmentDao.getDepartments();
         assertNotNull(departments);
     }
