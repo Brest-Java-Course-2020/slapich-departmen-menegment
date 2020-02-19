@@ -12,7 +12,7 @@
         </encoder>
     </appender>
 
-    <logger name="com.epam" level="TRACE">
+    <logger name="com.epam" level="INFO">
         <appender-ref ref="STDOUT"/>
         <appender-ref ref="FILE"/>
     </logger>
