@@ -14,6 +14,8 @@ public class DepartmentJdbcDaoImpl implements DepartmentDao {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(DepartmentJdbcDaoImpl.class);
 
+    //CalculatorPrice calculatorPrice = (CalculatorPrice) applicationContext.getBean("calculator");
+
     private final NamedParameterJdbcTemplate namedParameterJdbcTemplate;
 
     public DepartmentJdbcDaoImpl(NamedParameterJdbcTemplate namedParameterJdbcTemplate) {
